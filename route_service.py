@@ -1,7 +1,7 @@
 import requests
 from geopy.distance import geodesic
-from app.config import settings
-from app.utils.geopy_utils import get_coordinates
+from config import settings
+from geopy_utils import get_coordinates
 
 class RouteService:
     @staticmethod

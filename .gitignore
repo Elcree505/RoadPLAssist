@@ -1,0 +1,46 @@
+# Environment variables
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask cache / runtime
+instance/
+.webassets-cache
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.pot
+*.swp
+*.tmp
+*.bak
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Python virtual environment
+venv/
+env/
+
+# Dependency management
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node.js (if used for frontend)
+node_modules/
+build/
+dist/
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/

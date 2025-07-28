@@ -1,10 +1,11 @@
 import os
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
-class Settings(BaseSettings):
-    GOOGLE_MAPS_API_KEY: str
-    WEATHER_API_KEY: str
-    MAX_POIS: int = 10
-    OPTIMIZATION_THRESHOLD: float = 0.8  # 80% of max score
+class Settings:
+    GOOGLE_MAPS_API_KEY = "AIzaSyAfqwMAAUrvjvl5wINVPS8w7at7kBVzsoA"
+    WEATHER_API_KEY = "vh1mnSABcaaaogyqWPzm4QTfLb4znDuy"
+    MAX_POIS = 10
+    OPTIMIZATION_THRESHOLD = 0.8
 
 settings = Settings()
+    

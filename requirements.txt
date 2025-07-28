@@ -1,4 +1,4 @@
-fastapi>=0.68.0
+flask
 uvicorn>=0.15.0
 googlemaps>=1.12.2
 geopy>=2.1.0
